@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-11T16:32:47 IST" name="mysuite" finished-at="2025-04-11T16:33:02 IST" duration-ms="14661">
+    <groups>
+    </groups>
+    <test started-at="2025-04-11T16:32:47 IST" name="my test" finished-at="2025-04-11T16:33:02 IST" duration-ms="14661">
+      <class name="testngTutorial.MyApplication">
+        <test-method signature="startApp()[pri:0, instance:testngTutorial.MyApplication@a1153bc]" started-at="2025-04-11T16:33:02 IST" name="startApp" finished-at="2025-04-11T16:33:02 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method signature="loginApp()[pri:0, instance:testngTutorial.MyApplication@a1153bc]" started-at="2025-04-11T16:33:02 IST" name="loginApp" finished-at="2025-04-11T16:33:02 IST" depends-on-methods="testngTutorial.MyApplication.startApp" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method signature="logOutApp()[pri:0, instance:testngTutorial.MyApplication@a1153bc]" started-at="2025-04-11T16:33:02 IST" name="logOutApp" finished-at="2025-04-11T16:33:02 IST" depends-on-methods="testngTutorial.MyApplication.loginApp" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApp -->
+      </class> <!-- testngTutorial.MyApplication -->
+      <class name="testngTutorial.OrangrHRMTest">
+        <test-method signature="Oprnapp()[pri:1, instance:testngTutorial.OrangrHRMTest@459e9125]" started-at="2025-04-11T16:32:47 IST" name="Oprnapp" finished-at="2025-04-11T16:32:57 IST" duration-ms="9993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Oprnapp -->
+        <test-method signature="testLogo()[pri:2, instance:testngTutorial.OrangrHRMTest@459e9125]" started-at="2025-04-11T16:32:57 IST" name="testLogo" finished-at="2025-04-11T16:33:00 IST" duration-ms="3155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testLogin()[pri:3, instance:testngTutorial.OrangrHRMTest@459e9125]" started-at="2025-04-11T16:33:00 IST" name="testLogin" finished-at="2025-04-11T16:33:01 IST" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="closeApp()[pri:4, instance:testngTutorial.OrangrHRMTest@459e9125]" started-at="2025-04-11T16:33:01 IST" name="closeApp" finished-at="2025-04-11T16:33:02 IST" duration-ms="738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testngTutorial.OrangrHRMTest -->
+    </test> <!-- my test -->
+  </suite> <!-- mysuite -->
+</testng-results>
